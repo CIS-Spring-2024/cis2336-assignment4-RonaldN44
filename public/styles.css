@@ -1,0 +1,171 @@
+/*
+CSS code for all classes
+*/
+
+header {
+    background-color: red;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+.header2 {
+    text-align: center;
+
+}
+
+body {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:16px;
+}
+
+.navbar{
+    background-color: #ffffff;
+    overflow: hidden;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    overflow: hidden;
+}
+
+.navbar a {
+    float: left;
+    text-align: center;
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border-bottom: 3px solid transparent;
+  }
+  
+  .navbar a:hover {
+    border-bottom: 3px solid black;
+  }
+  
+  .navbar a.active {
+    border-bottom: 3px solid red;
+  }
+
+
+.img_deg{
+    float: right;
+    padding: 5px 30px;
+    max-width: 100%;
+    height: auto;
+    width:400px; 
+
+}
+
+.img2 {
+    width:300px;
+    height:auto;
+    border-radius: 25%;
+}
+
+.headImg{
+    float:right;
+    width: 200px;
+    padding: 10px;
+}
+
+.p2{
+    position:absolute;
+    width:70%;
+    left:13%;
+    text-align: center;
+    padding: 30px;
+    line-height: 2;
+    border: 15px solid grey ;
+    border-width: thick;
+    border-radius: 25px
+
+}
+.pos_cen{
+    position:absolute;
+    width:70%;
+    left:15%;
+    top:20%;
+    text-align: center;
+    padding: 30px;
+    line-height: 2;
+
+}
+
+.biolink a:hover{
+    color:blue;
+
+
+}
+
+.bioBody{
+    background-color: beige;
+}
+
+
+.hours thead tr{
+    background-color:grey;
+}
+
+.hours tbody tr:nth-of-type(even){
+    background-color: whitesmoke;
+}
+
+.hours tbody tr:nth-of-type(odd){
+    background-color: white;
+}
+
+
+.hours{
+    float:left;
+    border-style: solid;
+    border-color: black;
+    background-color: black;
+    width:700px;
+}
+
+fieldset{
+    border:solid 1px black;
+}
+
+legend{
+    font-weight:bolder
+}
+
+button[type="submit"]{
+    padding: .5em .1em;
+    background-color:black;
+    border-radius:6px;
+    color:white;
+    
+}
+
+footer{
+    background-color: grey;
+    font-size:large;
+    color:white;
+    text-align:center;
+    background-size: 1px 1px;
+}
+
+.schoolAdd{
+    text-align: left;
+    padding:10px;
+}
+
+.copyRight{
+    text-align: right;
+}
+
+.head3{
+    text-align: left;
+    font-size: larger;
+    padding:10px 50px;
+}
+
+.slPic{
+    position: relative;
+    float:left;
+    padding:200px 950px;
+}
